@@ -63,30 +63,15 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="active"><a href="#home" class="nav-link">Home</a></li>
                 <li class="has-children">
-                  <a href="prevention.html" class="nav-link">Pencegahan</a>
-                  <ul class="dropdown">
-                    <li><a href="#" class="nav-link">Tinggal di rumah</a></li>
-                    <li><a href="#" class="nav-link">Pertahankan jarak sosial</a></li>
-                    <li><a href="#" class="nav-link">Kenakan masker wajah</a></li>
-                    <li><a href="#" class="nav-link">Cuci tanganmu</a></li>
-                    <li class="has-children">
-                      <a href="#">Tautan Lainnya</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <a href="#mencengah" class="nav-link">Pencegahan</a>
+           
                 </li>
-                <li><a href="#" class="nav-link">Gejala</a></li>
-                <li><a href="about.html" class="nav-link">Tentang</a></li>
-
-
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Kontak</a></li>
+                <li><a href="#gejala" class="nav-link">Gejala</a></li>
+                <li><a href="#berita" class="nav-link">Berita</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
               </ul>
             </nav>
           </div>
@@ -100,7 +85,7 @@
     </header>
 
     
-
+    <section id="home" class="name">
     <div class="hero-v1">
       <div class="container">
         <div class="row align-items-center">
@@ -108,7 +93,7 @@
             <span class="d-block subheading">Covid-19 Kesadaran</span>
             <h1 class="heading mb-3">Tetap Aman. Tinggal Dirumah.</h1>
             <p class="mb-5">"Kamu tidak bisa menghentikan matahari terbenam, tetapi kamu pasti bisa menghentikan virus corona. Di rumah saja."</p>
-            <p class="mb-4"><a href="#" class="btn btn-primary">Bagaimana mencegahnya</a></p>
+            <p class="mb-4"><a href="#mencengah" class="btn btn-primary">Bagaimana mencegahnya</a></p>
 
 
 
@@ -122,9 +107,9 @@
         </div>
       </div>
     </div>
+    </section>
 
-
-    <!-- MAIN -->
+    <!-- Table -->
     
     <div class="site-section stats">
       <div class="container">
@@ -267,13 +252,12 @@
         </div>
 
 
-
-
-
+        <select name="tentang" id="tentang">
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0">
+             <h2 class="section-heading">Corona Virus</h2>
             <figure class="img-play-vid">
               <img src="asfrontand/images/hero_2.jpg" alt="Image" class="img-fluid">
               <div class="absolute-block d-flex">
@@ -284,6 +268,7 @@
               </div>
             </figure>
           </div>
+
           <div class="col-lg-5 ml-auto">
             <h2 class="mb-4 section-heading">Apa itu Coronavirus?</h2>
             <p></p>
@@ -297,7 +282,9 @@
         </div>
       </div>
     </div>
+   </select>
 
+    
     <div class="container pb-5">
       <div class="row">
         <div class="col-lg-3">
@@ -416,7 +403,9 @@
               
             </div>
           </div>
+
           
+          <section id="mencengah" name="mencengah"></section>
           <div class="col-lg-5 ml-auto">
             <h2 class="section-heading mb-4">Bagaimana Mencegah Corona virus?</h2>
             <p>Gunakan masker.Selamatkan nyawa.</p>
@@ -428,12 +417,15 @@
               <li>Kenakan masker jika pembatasan fisik tidak dimungkinkan.</li>
             </ul>
 
-            <p><a href="#" class="btn btn-primary">Baca lebih lanjut tentang pencegahan</a></p>
+            <p><a href="#baca" class="btn btn-primary">Baca lebih lanjut tentang pencegahan</a></p>
           </div>
         </div>
       </div>
     </div>
+    </section>
 
+    
+    <section id="baca" name="baca">
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -478,8 +470,10 @@
         </div>
       </div>
     </div>
+    </section>
 
 
+    <section id="gejala" name="gejala">
     <div class="site-section bg-primary-light">
       <div class="container">
         <div class="row mb-5">
@@ -560,8 +554,10 @@
         </div>
       </div>
     </div>
+</section>
 
 
+<section id="berita" name="berita">
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -638,32 +634,42 @@
 
       </div>
     </div>
+</section>
+
 
     <div class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <h2 class="footer-heading mb-4">Tentang</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel ipsa necessitatibus ducimus architecto fugiat!</p>
+            <h2 class="footer-heading mb-4">Kontak</h2>
+             <ul class="list-unstyled">
+                  <li><a href="#">Nomber Telepon :</a></li>
+                  <li><a href="">083237-3839-3939</a></li>
+                  <li><a href="#">Lokasi :</a></li>
+                  <li><a href="">Jln.Rancamanyar</a></li>
+                </ul>
             <div class="my-5">
               <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
               <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
               <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
               <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
             </div>
+
           </div>
+          <section id="kontak" name="kontak">
           <div class="col-lg-8">
             <div class="row">
               <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">tautan langsung</h2>
+                <h2 class="footer-heading mb-4">Tautan Langsung</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">Gejala</a></li>
-                  <li><a href="#">Pencegahan</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Tentang virus Corona</a></li>
-                  <li><a href="#">Hubungi kami</a></li>
+                  <li><a href="#gejala">Gejala</a></li>
+                  <li><a href="#mencengah">Pencegahan</a></li>
+                  <li><a href="#berita">Berita</a></li>
+                  <li><a href="#tentang">Apa Itu Virus Corona?</a></li>
+                  <li><a href="#baca">Melindungi Diri Sendiri</a></li>
                 </ul>
               </div>
+
               <div class="col-lg-4">
                 <h2 class="footer-heading mb-4">Tautan Bermanfaat</h2>
                 <ul class="list-unstyled">
@@ -673,13 +679,14 @@
                   <li><a href="#">Kesehatan Dunia</a></li>
                 </ul>
               </div>
+
               <div class="col-lg-4">
                 <h2 class="footer-heading mb-4">Sumber daya</h2>
                 <ul class="list-unstyled">
                   <li><a href="#">WHO Website</a></li>
                   <li><a href="#">CDC Website</a></li>
                   <li><a href="#">Gov Website</a></li>
-                  <li><a href="#">DOH Website</a></li>
+                  <li><a href="#">KC-19 Website</a></li>
                 </ul>
               </div>
             </div>
@@ -695,7 +702,7 @@
 
               </div>
             </div>
-
+            </section>
           </div>
         </div>
       </div>
