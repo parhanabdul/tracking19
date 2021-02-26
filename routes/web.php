@@ -5,12 +5,14 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontand.welcome');
 });
+//FRONTEND
+use App\Http\Controllers\frontandController;
+Route::resource('/',frontandController::class);
 
-
-Route::get('dashboard',function () {
-    return view('layouts.master');
+Route::get('/admin', function () {
+    return view('/halamanutama');
 });
 
 Auth::routes();
@@ -18,10 +20,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-//FRONTEND
-use App\Http\Controllers\frontandController;
-Route::resource('/welcome',frontandController::class);
 
+/// PROVINSI
 use App\Http\Controllers\ProvinsiController;
 Route::resource('provinsi', ProvinsiController::class);
 
